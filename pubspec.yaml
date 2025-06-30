@@ -1,0 +1,62 @@
+name: secret_calc
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.3
+  get_it: ^8.0.3
+  get: ^4.7.2
+  flutter_svg: ^2.1.0
+  google_fonts: ^6.2.1
+  flutter_screenutil: ^5.9.3
+  math_expressions: ^2.7.0
+  intl: ^0.20.2
+  image_picker: ^1.1.2
+  dotted_border: ^3.0.1
+  uuid: ^4.5.1
+  flutter_slidable: ^4.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.3
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/img/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/img/
+    - assets/svg/
+
+  fonts:
+    - family: Sf Pro Text
+      fonts:
+        - asset: fonts/sf_pro/SF-Pro.ttf
+        - asset: fonts/sf_pro/SF-Pro-Display-Black.otf
+        - asset: fonts/sf_pro/SFProText-Bold.ttf
+        - asset: fonts/sf_pro/SFProText-Regular.ttf
+    - family: Trash
+      fonts:
+        - asset: fonts/icon/trash.ttf
+    - family: Edit
+      fonts:
+        - asset: fonts/icon/edit.ttf
+    
+
+        
+
